@@ -1,11 +1,11 @@
-x = "test"
+x = " amazing fantastic user"
 print(f"hello{x}")
 
 
 temp = 75
 if temp > 68:
-    print('warm')
+    print('it is warm')
 elif temp == 68:
-    print('perfect')
+    print('it is perfect')
 else:
-    print('cold')
+    print('it is cold')

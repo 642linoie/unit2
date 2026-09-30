@@ -2,7 +2,7 @@
 
     
 def bill():
-    return float(input("how much is the bill?"))
+    return float(input("how much is the bill? $"))
 
 def tip():
     return [bill * 1.00, bill * 1.15, bill * 1.20, bill *1.25]
@@ -23,6 +23,4 @@ elif service == "good":
     print (f"total bill: ${tip[2]}")
 elif service == "great":
     print (f"total bill: ${tip[3]}")
-else:
-    print (f"invalid choice entered")
 

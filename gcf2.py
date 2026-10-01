@@ -1,7 +1,12 @@
 import math
-import random
-x = random.randint (1, 100)
-y = random.randint (1, 100)
+
+
+x = int(input("what is the x-value?"))
+
+
+
+y = int(input("what is the y-value?"))
+
 print (x)
 print (y)
 result = math.gcd(x, y)

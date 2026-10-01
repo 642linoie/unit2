@@ -24,3 +24,4 @@ elif service == "good":
 elif service == "great":
     print (f"total bill: ${tip[3]}")
 
+print (bill)

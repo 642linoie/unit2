@@ -1,27 +1,14 @@
-
-
-    
-def bill():
-    return float(input("how much is the bill? $"))
-
-def tip():
-    return [bill * 1.00, bill * 1.15, bill * 1.20, bill *1.25]
-
-x=(input("how much is the bill?"))
-print(f"the bill is ${x}")
-
-print("\nhow was the service? (bad, okay, good, great)")
+bill = float(input("how much is the bill? $"))
+tip = [1.00, 1.15, 1.20, 1.25]
+service = input("how was the service? (bad, okay, good, great)")
 service = input("your choice:  ")
-
-def service(input):
-    input["bad", "okay", "good", "great"]
+print("the bill is $")
 if service == "bad":
-    print (f"total bill: ${tip[0]}")
+    print (tip[0]*bill)
 elif service == "okay":
-    print (f"total bill: ${tip[1]}")
+    print (tip[1]*bill)
 elif service == "good":
-    print (f"total bill: ${tip[2]}")
+    print (tip[2]*bill)
 elif service == "great":
-    print (f"total bill: ${tip[3]}")
+    print (tip[3]*bill)
 
-print (bill)

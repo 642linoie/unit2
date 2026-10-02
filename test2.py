@@ -1,4 +1,4 @@
-x = " amazing fantastic user"
+x = " human"
 print(f"hello{x}")
 
 

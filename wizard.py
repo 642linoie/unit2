@@ -5,9 +5,6 @@
     #print number of duels
     #print each indiviual duel
     #tell which wizard won the duel
-
-
-
 """ def wizards(n,start,duels):
     owner = start
     changed_hands= 1
@@ -21,15 +18,9 @@ def wizards(n,start,duels):
     owner = start
     changed_hands= 1
     for i in range (n):
-        if (duels [(i-1)][1]) == owner:
-            owner == (duels [(i-1)][0])
-            changed_hands +=1
-
-    print (owner)
-    print (changed_hands)
-    
-
-
-
+        if (duels [i][1]) == owner:
+            owner = (duels [i][0])
+            changed_hands += 1
+    print (owner, changed_hands)
 
 wizards (3, "A", ["BA", "CB", "DA"])

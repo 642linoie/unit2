@@ -1,6 +1,5 @@
 
-import random
-x = random.randint (1, 100)
+x = int(input("give a number"))
 print (x)
 if x % 2 ==0:
     print("even")

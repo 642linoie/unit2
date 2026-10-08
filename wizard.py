@@ -23,4 +23,4 @@ def wizards(n,start,duels):
             changed_hands += 1
     print (owner, changed_hands)
 
-wizards (3, "A", ["BA", "CB", "DA"])
+wizards (4, "A", ["BA", "CB", "DA", "AZ"])

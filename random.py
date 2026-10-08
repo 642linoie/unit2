@@ -3,7 +3,7 @@ def coronavirus (P, N, R):
     infected_people=N
 
     P==750
-    for i in range (4):
+    while infected_people >= P:
         
         N == (infected_people * (R))
         days += 1

@@ -1,13 +1,10 @@
 
 
-def coronavirus (P, N, R, T):
-    infected_people=T
-    
-    if infected_people > P:
-        contained=True
-    print (T)
-    while True:
-        T += R
-    
-
-coronavirus (750, 1, 5, 1)
+def coronavirus (P, N, R):  
+    infected_people=N
+    days=0
+    while infected_people <= P:
+        infected_people * (R + 1)
+        days += 1
+    print (days)
+coronavirus (750, 1, 5)
